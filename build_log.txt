@@ -1,0 +1,284 @@
+﻿  Γû▓ Next.js 14.2.35
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+node.exe : 
+En línea: 1 Carácter: 1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (:String  
+  ) [], RemoteException
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+Failed to compile.
+
+./src/app/admin/catalogo/page
+.tsx
+8:46  Error: Unexpected any. 
+Specify a different type.  @t
+ypescript-eslint/no-explicit-
+any
+11:58  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+38:50  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+39:40  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+43:11  Error: 'router' is 
+assigned a value but never 
+used.  @typescript-eslint/no-
+unused-vars
+48:8  Warning: React Hook 
+useEffect has a missing 
+dependency: 
+'fetchCategoriesAndTypes'. 
+Either include it or remove 
+the dependency array.  
+react-hooks/exhaustive-deps
+100:23  Error: 'error' is 
+assigned a value but never 
+used.  @typescript-eslint/no-
+unused-vars
+159:23  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+172:30  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+379:53  Warning: Using 
+`<img>` could result in 
+slower LCP and higher 
+bandwidth. Consider using 
+`<Image />` from 
+`next/image` to 
+automatically optimize 
+images. This may incur 
+additional usage or cost 
+from your provider. See: http
+s://nextjs.org/docs/messages/
+no-img-element  
+@next/next/no-img-element
+
+./src/app/admin/ingesta/page.
+tsx
+56:27  Error: 'docData' is 
+assigned a value but never 
+used.  @typescript-eslint/no-
+unused-vars
+77:23  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+
+./src/app/biblioteca/page.tsx
+2:31  Error: 'useMemo' is 
+defined but never used.  @typ
+escript-eslint/no-unused-vars
+52:48  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+53:54  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+56:52  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+60:23  Error: 'setCartCount' 
+is assigned a value but 
+never used.  @typescript-esli
+nt/no-unused-vars
+125:8  Warning: React Hook 
+useEffect has a missing 
+dependency: 'fetchUserData'. 
+Either include it or remove 
+the dependency array.  
+react-hooks/exhaustive-deps
+
+./src/app/chat/page.tsx
+32:12  Error: 'analysisStep' 
+is assigned a value but 
+never used.  @typescript-esli
+nt/no-unused-vars
+32:26  Error: 
+'setAnalysisStep' is 
+assigned a value but never 
+used.  @typescript-eslint/no-
+unused-vars
+33:12  Error: 'exportFormat' 
+is assigned a value but 
+never used.  @typescript-esli
+nt/no-unused-vars
+34:12  Error: 'userProfile' 
+is assigned a value but 
+never used.  @typescript-esli
+nt/no-unused-vars
+34:52  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+37:44  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+115:27  Error: '_' is 
+defined but never used.  @typ
+escript-eslint/no-unused-vars
+115:34  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+134:17  Error: 
+'systemPrompt' is never 
+reassigned. Use 'const' 
+instead.  prefer-const
+
+./src/app/inicio/page.tsx
+3:10  Error: 'useEffect' is 
+defined but never used.  @typ
+escript-eslint/no-unused-vars
+3:21  Error: 'useState' is 
+defined but never used.  @typ
+escript-eslint/no-unused-vars
+
+./src/app/mis-compras/page.ts
+x
+9:48  Error: Unexpected any. 
+Specify a different type.  @t
+ypescript-eslint/no-explicit-
+any
+15:8  Warning: React Hook 
+useEffect has a missing 
+dependency: 
+'fetchPurchases'. Either 
+include it or remove the 
+dependency array.  
+react-hooks/exhaustive-deps
+41:47  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+52:34  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+62:38  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+113:41  Warning: Using 
+`<img>` could result in 
+slower LCP and higher 
+bandwidth. Consider using 
+`<Image />` from 
+`next/image` to 
+automatically optimize 
+images. This may incur 
+additional usage or cost 
+from your provider. See: http
+s://nextjs.org/docs/messages/
+no-img-element  
+@next/next/no-img-element
+
+./src/app/planes/page.tsx
+74:23  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+
+./src/app/tienda/page.tsx
+6:8  Error: 'Link' is 
+defined but never used.  @typ
+escript-eslint/no-unused-vars
+9:46  Error: Unexpected any. 
+Specify a different type.  @t
+ypescript-eslint/no-explicit-
+any
+10:62  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+13:49  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+24:8  Warning: React Hook 
+useEffect has a missing 
+dependency: 'fetchData'. 
+Either include it or remove 
+the dependency array.  
+react-hooks/exhaustive-deps
+34:68  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+43:64  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+62:33  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no-
+explicit-any
+185:37  Warning: Using 
+`<img>` could result in 
+slower LCP and higher 
+bandwidth. Consider using 
+`<Image />` from 
+`next/image` to 
+automatically optimize 
+images. This may incur 
+additional usage or cost 
+from your provider. See: http
+s://nextjs.org/docs/messages/
+no-img-element  
+@next/next/no-img-element
+257:37  Warning: Using 
+`<img>` could result in 
+slower LCP and higher 
+bandwidth. Consider using 
+`<Image />` from 
+`next/image` to 
+automatically optimize 
+images. This may incur 
+additional usage or cost 
+from your provider. See: http
+s://nextjs.org/docs/messages/
+no-img-element  
+@next/next/no-img-element
+257:37  Warning: img 
+elements must have an alt 
+prop, either with meaningful 
+text, or an empty string for 
+decorative images.  
+jsx-a11y/alt-text
+
+./src/components/Navbar.tsx
+3:10  Error: 'useRouter' is 
+defined but never used.  @typ
+escript-eslint/no-unused-vars
+
+info  - Need to disable some 
+ESLint rules? Learn more 
+here: https://nextjs.org/docs
+/basic-features/eslint#disabl
+ing-rules
